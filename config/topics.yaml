@@ -1,0 +1,59 @@
+﻿topics:
+  Technology:
+    color: "#6366f1"
+    code: "TECH"
+    items:
+      - name: "OpenAI"
+        wikipedia: "OpenAI"
+      - name: "ChatGPT"
+        wikipedia: "ChatGPT"
+      - name: "Nvidia"
+        wikipedia: "Nvidia"
+      - name: "Gemini"
+        wikipedia: "Gemini (chatbot)"
+      - name: "AI"
+        wikipedia: "Artificial intelligence"
+      - name: "Tesla"
+        wikipedia: "Tesla, Inc."
+
+  Finance:
+    color: "#10b981"
+    code: "FIN"
+    items:
+      - name: "Bitcoin"
+        wikipedia: "Bitcoin"
+      - name: "Ethereum"
+        wikipedia: "Ethereum"
+      - name: "Stock Market"
+        wikipedia: "Stock market"
+
+  Sports:
+    color: "#f59e0b"
+    code: "SPRT"
+    items:
+      - name: "Messi"
+        wikipedia: "Lionel Messi"
+      - name: "FIFA"
+        wikipedia: "FIFA"
+      - name: "Cricket"
+        wikipedia: "Cricket"
+      - name: "IPL"
+        wikipedia: "Indian Premier League"
+
+  Entertainment:
+    color: "#ec4899"
+    code: "ENT"
+    items:
+      - name: "Marvel"
+        wikipedia: "Marvel Cinematic Universe"
+      - name: "Taylor Swift"
+        wikipedia: "Taylor Swift"
+      - name: "Netflix"
+        wikipedia: "Netflix"
+
+settings:
+  google_trends_weight: 0.7
+  wikipedia_weight: 0.3
+  correlation_threshold: 0.7
+  rising_window_days: 7
+  timeframe: "today 3-m"
