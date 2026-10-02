@@ -1,4 +1,4 @@
-# 🧠 Human Attention Engine (HAE)
+# Human Attention Engine (HAE)
 
 > *A Terminal for Human Attention*
 
